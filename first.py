@@ -1,6 +1,7 @@
-echo "# karthik" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/karthik1308/karthik.git
-git push -u origin master
+n=int(input("Enter the Value = "))
+if n<0:
+  print("Entered value is Negative")
+else:
+  print("Entered value is Positive")
+if n==0:
+    print("Entered value is zero")
