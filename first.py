@@ -1,8 +1,6 @@
 #karthik
 n=int(input())
-if n<0:
-  print("Negative")
-elif(n==0):
-  print("Zero")
+if n%2==0:
+  print("Even")
 else:
-  print("Positive")
+  print("Odd")
