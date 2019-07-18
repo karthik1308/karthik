@@ -1,7 +1,8 @@
-n=int(input("Enter the Value = "))
+#karthik
+n=int(input())
 if n<0:
-  print("Entered value is Negative")
+  print("Negative")
+elif(n==0):
+  print("Zero")
 else:
   print("Entered value is Positive")
-if n==0:
-    print("Entered value is zero")
